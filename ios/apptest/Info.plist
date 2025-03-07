@@ -52,9 +52,9 @@
       <true/>
     </dict>
     <key>NSCameraUsageDescription</key>
-    <string>Vapi Playground needs camera access to work</string>
+    <string>This app needs access to your camera to capture images and videos.</string>
     <key>NSMicrophoneUsageDescription</key>
-    <string>Vapi Playground needs microphone access to work</string>
+    <string>This app needs access to your microphone to capture audio.</string>
     <key>NSUserActivityTypes</key>
     <array>
       <string>$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route</string>
