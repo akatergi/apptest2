@@ -32,15 +32,13 @@ export default function HomeScreen() {
   return (
     <View>
       <Text onPress={() => {
-        request(PERMISSIONS.IOS.MICROPHONE).then(() => {
-          vapi.start("722b4b8f-793d-4740-b61f-7b3921dc6ceb")
-            .then((res) => {
-              console.log("Vapi started", res);
-            })
-            .catch((error) => {
-              console.error(error);
-            });
-        })
+        vapi.start("722b4b8f-793d-4740-b61f-7b3921dc6ceb")
+          .then((res) => {
+            console.log("Vapi started", res);
+          })
+          .catch((error) => {
+            console.error(error);
+          });
       }} style={{ top: 100, backgroundColor: 'red', padding: 10, borderRadius: 10, margin: 10, textAlign: 'center' }}>Start Call</Text>
       <Text style={{ top: 110, backgroundColor: 'lightblue', padding: 10, borderRadius: 10, margin: 10, textAlign: 'center' }}>{interactionState}</Text>
     </View>
