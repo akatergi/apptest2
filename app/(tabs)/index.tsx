@@ -1,6 +1,6 @@
-import { Image, StyleSheet, Platform, View, Text } from 'react-native';
+import { View, Text } from 'react-native';
 
-import { PERMISSIONS, request, check } from 'react-native-permissions';
+// import { PERMISSIONS, request, check } from 'react-native-permissions';
 import Vapi from '@vapi-ai/react-native';
 import { useEffect, useState } from 'react';
 
